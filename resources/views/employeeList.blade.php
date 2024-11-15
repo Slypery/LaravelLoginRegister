@@ -102,7 +102,7 @@
                 <form method="post" class="w-96">
                     @csrf
                     @method('delete')
-                    <h1 class="mt-1 text-lg">Data will be permanently deleted!!</h1>
+                    <h1 class="mt-2 text-lg">Data will be permanently deleted!!</h1>
                     <button id="DeleteID" name="id" value="" class="mt-2 col-span-12 rounded-[7px] w-full h-fit border-2 bg-red-600 border-black overflow-hidden focus-visible:bg-opacity-75">
                         <div class="px-6 py-1 rounded-[5px] border-b-4 border-r-2 border-red-800 text-white">
                             Confirm
