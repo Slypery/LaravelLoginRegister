@@ -24,7 +24,7 @@ class CAuth extends Controller
             if (Auth::attempt($credential)) {
                 switch ($userdata->role) {
                     case 'admin':
-                        return redirect()->route('admin');
+                        return redirect()->route('admin.index');
                         break;
                     case 'staff':
                         return redirect()->route('staff');
